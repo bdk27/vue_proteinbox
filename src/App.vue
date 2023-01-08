@@ -2,6 +2,7 @@
   import ProteinNav from './components/ProteinNav.vue'
   import ProteinHome from './components/ProteinHome.vue'
   import ProteinBanner from './components/ProteinBanner.vue'
+  import ProteinAbout from './components/ProteinAbout.vue'
   import ProteinMenu from './components/ProteinMenu.vue'
   import ProteinNews from './components/ProteinNews.vue'
   import ProteinLoc from './components/ProteinLoc.vue'
@@ -12,6 +13,7 @@
   <ProteinNav></ProteinNav>
   <ProteinHome></ProteinHome>
   <ProteinBanner></ProteinBanner>
+  <ProteinAbout></ProteinAbout>
   <ProteinMenu></ProteinMenu>
   <ProteinNews></ProteinNews>
   <ProteinLoc></ProteinLoc>
