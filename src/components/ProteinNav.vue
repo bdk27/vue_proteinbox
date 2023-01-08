@@ -26,7 +26,7 @@
         <font-awesome-icon icon="fa-solid fa-xmark" class="xmark d-mb-block d-lg-none" @click="closeMenu"/>
       </ul>
 
-      <font-awesome-icon icon="fa-solid fa-bars" class="bars  d-mb-block d-lg-none" id="bars" @click="openMenu"/>
+      <font-awesome-icon icon="fa-solid fa-bars" class="bars  d-mb-block d-lg-none" @click="openMenu"/>
     </div>
   </nav>
 </template>
@@ -37,18 +37,19 @@
   nav {
     background: $red;
     .image {
-      width: 100px;
+      width: 10rem;
       img {
         width: 100%;
       }
     }
     ul {
+      margin: 0;
       li {
         display: inline-block;
         list-style: none;
         padding: 1rem;
         a {
-          font-size: 1.8rem;
+          @include font(2);
           color: #fff;
           text-decoration: none;
           padding: 1rem;
@@ -61,7 +62,7 @@
       }
     }
     .bars {
-      font-size: 1.8rem;
+      @include font(2);
       padding: 1rem 1.5rem;
       border: 1px solid #fff;
       border-radius: 1rem;
@@ -109,6 +110,11 @@
       }
     }
     
+  }
+  @media (max-width: 768px) {
+    .ann {
+      display: none;
+    }
   }
 
 </style>

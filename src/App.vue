@@ -1,6 +1,7 @@
 <script setup>
   import ProteinNav from './components/ProteinNav.vue'
   import ProteinHome from './components/ProteinHome.vue'
+  import ProteinBanner from './components/ProteinBanner.vue'
   import ProteinMenu from './components/ProteinMenu.vue'
   import ProteinNews from './components/ProteinNews.vue'
   import ProteinLoc from './components/ProteinLoc.vue'
@@ -10,6 +11,7 @@
 <template>
   <ProteinNav></ProteinNav>
   <ProteinHome></ProteinHome>
+  <ProteinBanner></ProteinBanner>
   <ProteinMenu></ProteinMenu>
   <ProteinNews></ProteinNews>
   <ProteinLoc></ProteinLoc>
@@ -25,6 +27,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Noto Sans TC', sans-serif;
+    overflow-x: hidden;
   }
   html {
     font-size: 62.5%;
@@ -32,4 +35,8 @@
   section {
     padding: 5rem 0rem;
   }
+  h1, h2, h3, h4, h5, p {
+    overflow-y: hidden;
+  }
+
 </style>
