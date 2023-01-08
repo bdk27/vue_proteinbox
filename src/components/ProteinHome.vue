@@ -19,7 +19,7 @@
                 <div class="col-12">
                     <div class="items">
                         <div class="image">
-                            <img src="../assets/img/蒙特婁香煎雞胸.png" class="w-100">
+                            <img src="../assets/img/去背.png" class="w-100">
                         </div>
                     </div>
                 </div>

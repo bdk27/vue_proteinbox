@@ -78,7 +78,16 @@
       color: $red;
       cursor: pointer;
     }
-    
+  }
+  .ann {
+    p {
+      background: $bg-red;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin: 0;
+      @include font(1)
+    }
   }
 
   @media (max-width: 992px) {
@@ -112,9 +121,7 @@
     
   }
   @media (max-width: 768px) {
-    .ann {
-      display: none;
-    }
+   
   }
 
 </style>
