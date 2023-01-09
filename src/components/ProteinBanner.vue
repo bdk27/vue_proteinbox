@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-6 g-5">
                 <div class="col-12" v-for="item in cards" :key="item.id">
-                    <div class="card shadow h-100">
+                    <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">
                                 <span v-if="item.en === 'meat'">🍗</span>
@@ -32,6 +32,9 @@
     @import '../scss/style.scss';
 
     .card {
+        border: 0;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        margin: 1rem 0;
         .card-title {
             color: $red;
             @include font(2);
@@ -40,6 +43,7 @@
             @include font(1);
             color: $text;
         }
+        
     }
 
 </style>

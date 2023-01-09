@@ -5,19 +5,19 @@ const cards = [
         id: nanoid(),
         name: '肉類',
         en: 'meat',
-        content: '油脂含量比較低，且富含優質蛋白質，以及礦物質鋅、鐵，能鞏固免疫細胞',
+        content: '油脂含量較低，富含蛋白質，以及礦物質鋅、鐵，能鞏固免疫細胞',
     },
     {
         id: nanoid(),
         name: '紫米',
         en: 'rice',
-        content: '富含蛋白質，維生素等多種營養成分常吃紫米的人，能夠大大提高免疫力',
+        content: '富含蛋白質，維生素等多種營養成分常吃紫米的人，能夠提高免疫力',
     },
     {
         id: nanoid(),
         name: '菜類',
         en: 'vegetable',
-        content: '建議要煮熟的青菜，補充維生素與礦物質',
+        content: '補充維生素與礦物質，減少身體脂肪 蔬菜的熱量極低',
     },
     {
         id: nanoid(),
