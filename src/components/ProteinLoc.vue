@@ -66,7 +66,7 @@
     @import '../scss/style.scss';
 
     .container {
-        height: 90rem;
+        height: 50rem;
     }
     h3 {
         @extend %head-title;
