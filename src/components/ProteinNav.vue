@@ -20,9 +20,9 @@
       <ul id="sideMenu">
         <li><a href="#">首頁</a></li>
         <li><a href="#">關於我們</a></li>
-        <li><a href="#">菜單</a></li>
+        <li><a href="#">菜單介紹</a></li>
         <li><a href="#">最新消息</a></li>
-        <li><a href="#">門市</a></li>
+        <li><a href="#">門市據點</a></li>
         <font-awesome-icon icon="fa-solid fa-xmark" class="xmark d-mb-block d-lg-none" @click="closeMenu"/>
       </ul>
 
@@ -51,8 +51,8 @@
         a {
           @include font(2);
           color: #fff;
-          text-decoration: none;
           padding: 1rem;
+          text-decoration: none;
           &:hover {
             background: #fff;
             color: $red;
@@ -77,16 +77,6 @@
       font-size: 2.5rem;
       color: $red;
       cursor: pointer;
-    }
-  }
-  .ann {
-    p {
-      background: $bg-red;
-      color: #fff;
-      text-align: center;
-      padding: 1rem;
-      margin: 0;
-      @include font(1)
     }
   }
 

@@ -4,7 +4,7 @@
 
 <template>
     <section>
-        <h3 class="text-center">菜單</h3>
+        <h3 class="text-center">菜單介紹</h3>
         <div class="container">
             <div class="row row-cols-sm-1 row-cols-md-2 align-items-center justify-content-center g-5 mb-5" v-for="item in menu" :key="item.id" :class="[item.number === 'even'?'flex-row-reverse':'flex-row']">
                 <div class="col-12">
