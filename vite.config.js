@@ -3,11 +3,11 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: './',
+  base: '/vue_proteinbox/',
   plugins: [vue()],
   resolve: {
     alias: {
-      '/img': 'src/assets/img',
+      '/img': '/src/assets/img',
     }
   }
 })

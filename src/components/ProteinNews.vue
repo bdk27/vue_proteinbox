@@ -4,7 +4,7 @@
 </script>
 
 <template>
-    <section>
+    <section id="news">
         <h3 class="text-center">最新消息</h3>
         <div class="container">
             <div class="row">

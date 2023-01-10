@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <section>
+    <section id="about">
         <h3 class="text-center">關於我們</h3>
         <div class="container">
             <div class="row row-cols-sm-1 row row-cols-lg-2 g-5">

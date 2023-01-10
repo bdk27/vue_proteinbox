@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="home">
+    <div class="home" id="home">
         <div class="container">
             <div class="row row-cols-md-1 row-cols-lg-2 align-items-center">
                 <div class="col-12">

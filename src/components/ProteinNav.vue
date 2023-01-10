@@ -18,11 +18,11 @@
       </div>
 
       <ul id="sideMenu">
-        <li><a href="#">首頁</a></li>
-        <li><a href="#">關於我們</a></li>
-        <li><a href="#">菜單介紹</a></li>
-        <li><a href="#">最新消息</a></li>
-        <li><a href="#">門市據點</a></li>
+        <li><a href="#home">首頁</a></li>
+        <li><a href="#about">關於我們</a></li>
+        <li><a href="#menu">菜單介紹</a></li>
+        <li><a href="#news">最新消息</a></li>
+        <li><a href="#shop">門市據點</a></li>
         <font-awesome-icon icon="fa-solid fa-xmark" class="xmark d-mb-block d-lg-none" @click="closeMenu"/>
       </ul>
 

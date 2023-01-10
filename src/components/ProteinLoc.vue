@@ -36,7 +36,7 @@
 </script>
 
 <template>
-    <section>
+    <section id="shop">
         <h3 class="text-center">門市據點</h3>
         <ul>
             <li class="shop active" @click="city='taipei'">台北</li>
